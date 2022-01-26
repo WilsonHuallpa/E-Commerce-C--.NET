@@ -1,0 +1,59 @@
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\CapaPresentacion\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\CapaPresentacion\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\CapaPresentacion\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csprojAssemblyReference.cache
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Control_de_Usuario.resources
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Login.resources
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCliente.resources
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.FrmStockDeArticulo.resources
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Proveedores.resources
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\CapaPresentacion\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\CapaPresentacion\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMenu.resources
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.FrmListaCompras.resources
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregar.resources
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\Comercio\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\Comercio\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\Comercio\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\Comercio\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\Comercio\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.csprojAssemblyReference.cache
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarCliente.resources
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarProducto.resources
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.FrmListaVentas.resources
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.FrmStockDeArticulo.resources
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCompras.resources
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.FrmPrincipal.resources
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.FrmLogin.resources
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\Wilson\Desktop\2°Cuatrimestre\labo_programacion 2\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\2°Cuatrimestre\labo_programacion 2\Sistema de ventas\Comercio\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\2°Cuatrimestre\labo_programacion 2\Sistema de ventas\Comercio\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\2°Cuatrimestre\labo_programacion 2\Sistema de ventas\Comercio\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\2°Cuatrimestre\labo_programacion 2\Sistema de ventas\Comercio\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\2°Cuatrimestre\labo_programacion 2\Sistema de ventas\Comercio\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\2°Cuatrimestre\labo_programacion 2\Sistema de ventas\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.csprojAssemblyReference.cache
+C:\2°Cuatrimestre\labo_programacion 2\Sistema de ventas\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarCliente.resources
+C:\2°Cuatrimestre\labo_programacion 2\Sistema de ventas\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarProducto.resources
+C:\2°Cuatrimestre\labo_programacion 2\Sistema de ventas\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.FrmListaVentas.resources
+C:\2°Cuatrimestre\labo_programacion 2\Sistema de ventas\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.FrmStockDeArticulo.resources
+C:\2°Cuatrimestre\labo_programacion 2\Sistema de ventas\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCompras.resources
+C:\2°Cuatrimestre\labo_programacion 2\Sistema de ventas\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.FrmPrincipal.resources
+C:\2°Cuatrimestre\labo_programacion 2\Sistema de ventas\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.FrmLogin.resources
+C:\2°Cuatrimestre\labo_programacion 2\Sistema de ventas\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\2°Cuatrimestre\labo_programacion 2\Sistema de ventas\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\2°Cuatrimestre\labo_programacion 2\Sistema de ventas\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\2°Cuatrimestre\labo_programacion 2\Sistema de ventas\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\2°Cuatrimestre\labo_programacion 2\Sistema de ventas\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\2°Cuatrimestre\labo_programacion 2\Sistema de ventas\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
