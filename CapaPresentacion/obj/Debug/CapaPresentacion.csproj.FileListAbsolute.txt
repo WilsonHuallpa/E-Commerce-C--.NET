@@ -57,3 +57,22 @@ C:\2°Cuatrimestre\labo_programacion 2\Sistema de ventas\Comercio\CapaPresentaci
 C:\2°Cuatrimestre\labo_programacion 2\Sistema de ventas\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
 C:\2°Cuatrimestre\labo_programacion 2\Sistema de ventas\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\2°Cuatrimestre\labo_programacion 2\Sistema de ventas\Comercio\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\C#\E-Commerce-C-sharp-.NET-Windows-Forms\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\C#\E-Commerce-C-sharp-.NET-Windows-Forms\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\C#\E-Commerce-C-sharp-.NET-Windows-Forms\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\C#\E-Commerce-C-sharp-.NET-Windows-Forms\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\C#\E-Commerce-C-sharp-.NET-Windows-Forms\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\C#\E-Commerce-C-sharp-.NET-Windows-Forms\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\C#\E-Commerce-C-sharp-.NET-Windows-Forms\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarCliente.resources
+C:\C#\E-Commerce-C-sharp-.NET-Windows-Forms\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAgregarProducto.resources
+C:\C#\E-Commerce-C-sharp-.NET-Windows-Forms\CapaPresentacion\obj\Debug\CapaPresentacion.FrmListaVentas.resources
+C:\C#\E-Commerce-C-sharp-.NET-Windows-Forms\CapaPresentacion\obj\Debug\CapaPresentacion.FrmStockDeArticulo.resources
+C:\C#\E-Commerce-C-sharp-.NET-Windows-Forms\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCompras.resources
+C:\C#\E-Commerce-C-sharp-.NET-Windows-Forms\CapaPresentacion\obj\Debug\CapaPresentacion.FrmPrincipal.resources
+C:\C#\E-Commerce-C-sharp-.NET-Windows-Forms\CapaPresentacion\obj\Debug\CapaPresentacion.FrmLogin.resources
+C:\C#\E-Commerce-C-sharp-.NET-Windows-Forms\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\C#\E-Commerce-C-sharp-.NET-Windows-Forms\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\C#\E-Commerce-C-sharp-.NET-Windows-Forms\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\C#\E-Commerce-C-sharp-.NET-Windows-Forms\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\C#\E-Commerce-C-sharp-.NET-Windows-Forms\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\C#\E-Commerce-C-sharp-.NET-Windows-Forms\CapaPresentacion\obj\Debug\CapaPresentacion.pdb

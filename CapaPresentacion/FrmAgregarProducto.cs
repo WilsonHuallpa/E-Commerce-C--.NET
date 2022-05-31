@@ -1,4 +1,5 @@
 ﻿using CapaDatos;
+using CapaDatos.BD;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -25,27 +26,22 @@ namespace CapaPresentacion
             try
             {
                 ChequearDatos();
-
-                switch ((Producto.ETipo)this.cmbTIPO.SelectedValue)
-                {
-                    case Producto.ETipo.perecedero:
-                        verificarYagregar();
-                        break;
-                    case Producto.ETipo.noPerecedero:
-                        verificarYagregar();
-                        break;
-                    case Producto.ETipo.almacen:
-                        verificarYagregar();
-                        break;
-                }
-
+                Producto nuevoProductos = CrearProducto();
+                ProductosBD.Guardar(nuevoProductos);
+                
+                MessageBox.Show("Producto cargado con exitos", Comercio.NombreComercio);
+                MessageBox.Show(nuevoProductos.Mostrar(), Comercio.NombreComercio);
+                this.Limpiar();
+                
             }
-            catch(Exception miErrorDatos)
+            catch (Exception miErrorDatos)
             {
                 MessageBox.Show(miErrorDatos.Message,Comercio.NombreComercio);
             }
-
         }
+
+
+
 
         private void FrmCompra_Load(object sender, EventArgs e)
         {
@@ -88,13 +84,12 @@ namespace CapaPresentacion
         {
             double precio;
             int stock;
-            int id;
             this.txtPrecio.Text = this.txtPrecio.Text.Replace(".", ",");
 
             if (double.TryParse(this.txtPrecio.Text, out precio) && int.TryParse(this.txtCantidad.Text, out stock)
-             && !Validaciones.ValidarString(this.txtdecripcion.Text) && int.TryParse(this.txtcodigo.Text, out id))
+             && !Validaciones.ValidarString(this.txtdecripcion.Text))
             {
-                if (Validaciones.CerosYnegativos(precio) || Validaciones.CerosYnegativos(stock) || Validaciones.CerosYnegativos(id))
+                if (Validaciones.CerosYnegativos(precio) || Validaciones.CerosYnegativos(stock))
                 {
                     throw new ErrordeDatosException("Verificar campo numericos");
                 }
@@ -110,32 +105,30 @@ namespace CapaPresentacion
 
         }
 
-        /// <summary>
-        /// verifica si el producto ya existe, si no lo agrega correctamente. 
-        /// </summary>
-        private void verificarYagregar()
+        private Producto CrearProducto()
         {
-            auxProducto = new ProductoPerecedero(this.txtdecripcion.Text, Convert.ToInt32(this.txtcodigo.Text), Convert.ToDouble(this.txtPrecio.Text), Convert.ToInt32(this.txtCantidad.Text), (Producto.ETipo)this.cmbTIPO.SelectedValue);
-
-            if (Comercio.ListaProductos + auxProducto)
+            Producto auxProducto = null;
+            switch ((Producto.ETipo)this.cmbTIPO.SelectedValue)
             {
-                MessageBox.Show("Producto cargado con exitos", Comercio.NombreComercio);
-                MessageBox.Show(auxProducto.Mostrar(), Comercio.NombreComercio);
+                case Producto.ETipo.perecedero:
+                    auxProducto = new ProductoPerecedero(this.txtdecripcion.Text, 0, Convert.ToDouble(this.txtPrecio.Text), Convert.ToInt32(this.txtCantidad.Text), (Producto.ETipo)this.cmbTIPO.SelectedValue);
+                    break;
+                case Producto.ETipo.noPerecedero:
+                    auxProducto = new ProductoNoPerecedero(this.txtdecripcion.Text, 0, Convert.ToDouble(this.txtPrecio.Text), Convert.ToInt32(this.txtCantidad.Text), (Producto.ETipo)this.cmbTIPO.SelectedValue);
+                    break;
+                case Producto.ETipo.almacen:
+                    auxProducto = new ProductoAlmacen(this.txtdecripcion.Text, 0, Convert.ToDouble(this.txtPrecio.Text), Convert.ToInt32(this.txtCantidad.Text), (Producto.ETipo)this.cmbTIPO.SelectedValue);
+                    break;
             }
-            else
-            {
-                MessageBox.Show("Producto previamente cargados", Comercio.NombreComercio);
-                MessageBox.Show("Solo se modifico el stock disponibles", Comercio.NombreComercio);
-            }
-            this.Limpiar();
+            return auxProducto;
         }
+
 
         /// <summary>
         /// limpiar
         /// </summary>
         private void Limpiar()
         {
-            this.txtcodigo.Clear();
             this.txtCantidad.Clear();
             this.txtPrecio.Clear();
             this.txtdecripcion.Clear();

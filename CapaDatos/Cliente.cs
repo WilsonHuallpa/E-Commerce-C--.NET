@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CapaDatos.BD;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -76,7 +77,7 @@ namespace CapaDatos
         {
             if (clientes != cliente)
             {
-                clientes.Add(cliente);
+                ClienteBD.Guardar(cliente);
                 return true;
             }
 

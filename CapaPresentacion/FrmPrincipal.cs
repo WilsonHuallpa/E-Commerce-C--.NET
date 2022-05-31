@@ -124,9 +124,11 @@ namespace CapaPresentacion
         {
             Comercio.HarcodeoCliente();
             Comercio.HarcodeoEmpleado();
-            Comercio.HardcodeoProductosNoPerecederos();
-            Comercio.HardcodeoProductosPerecederos();
-            Comercio.HardcodeoProductosAlmacen();
+            //Comercio.HardcodeoProductosNoPerecederos();
+            //Comercio.HardcodeoProductosPerecederos();
+            //Comercio.HardcodeoProductosAlmacen();
+            Comercio.GetProductosExitente();
+
             Comercio.HardcodeoUsuarios();
             Comercio.HardcodeoCompras();
         }

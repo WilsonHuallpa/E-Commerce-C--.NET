@@ -16,3 +16,9 @@ C:\2°Cuatrimestre\labo_programacion 2\Sistema de ventas\Comercio\CapaDatos\obj\
 C:\2°Cuatrimestre\labo_programacion 2\Sistema de ventas\Comercio\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
 C:\2°Cuatrimestre\labo_programacion 2\Sistema de ventas\Comercio\CapaDatos\obj\Debug\CapaDatos.dll
 C:\2°Cuatrimestre\labo_programacion 2\Sistema de ventas\Comercio\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\C#\E-Commerce-C-sharp-.NET-Windows-Forms\CapaDatos\bin\Debug\CapaDatos.dll
+C:\C#\E-Commerce-C-sharp-.NET-Windows-Forms\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\C#\E-Commerce-C-sharp-.NET-Windows-Forms\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\C#\E-Commerce-C-sharp-.NET-Windows-Forms\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\C#\E-Commerce-C-sharp-.NET-Windows-Forms\CapaDatos\obj\Debug\CapaDatos.dll
+C:\C#\E-Commerce-C-sharp-.NET-Windows-Forms\CapaDatos\obj\Debug\CapaDatos.pdb

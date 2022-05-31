@@ -44,13 +44,16 @@ namespace CapaDatos
         /// <param name="precio"></param>
         /// <param name="stock"></param>
         /// <param name="tipoProducto"></param>
-        public Producto(string descripcion, int idProducto, double precio, int stock, ETipo tipoProducto) : this()
+        public Producto(string descripcion, int id, double precio, int stock, ETipo tipoProducto) : this()
         {
-            this.descripcion = descripcion;
-            this.codigo = idProducto;
-            this.precio = precio;
-            this.stock = stock;
-            this.tipoProducto = tipoProducto;
+            
+                this.descripcion = descripcion;
+                this.codigo = id;
+                this.precio = precio;
+                this.stock = stock;
+                this.tipoProducto = tipoProducto;
+            
+        
         }
         #endregion
 
@@ -94,6 +97,8 @@ namespace CapaDatos
 
             }
         }
+
+        public ETipo TipoProducto { get => tipoProducto; }
         #endregion
         #region Sobrecarga de operadores
         /// <summary>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CapaDatos.BD;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Resources;
@@ -158,13 +159,11 @@ namespace CapaDatos
         /// </summary>
         public static void HarcodeoCliente()
         {
-            string[] nombreClientes = new string[5] { "Homero", "Barney", "Montgomery", "Ned", "Waylon" };
-            string[] apellidoClientes = new string[5] { "Simpson", "Gomez", "Burns", "Flanders", "Smithers" };
-            double[] dni = new double[5] { 22222222, 33333333, 44444444, 55555555, 66666666 };
+            List<Cliente> listaClientes = ClienteBD.Leer();
 
-            for (int i = 0; i < 5; i++)
+            foreach (Cliente auxCliente in listaClientes)
             {
-                listaPersonas.Add(new Cliente(nombreClientes[i], apellidoClientes[i], dni[i]));
+                listaPersonas.Add(auxCliente);
             }
         }
 
@@ -193,77 +192,20 @@ namespace CapaDatos
             }
         }
 
+
+        /// <summary>
+        /// Obtiene la lista de Productos existente en la base de datos.
+        /// </summary>
+        /// 
+        public static void GetProductosExitente()
+        {
+            listaProductos = ProductosBD.Leer();
+        }
+
         /// <summary>
         /// Hace una carga instantanea de 5 productos perecederos
         /// </summary>
-
-        public static void HardcodeoProductosPerecederos()
-        {
-            string[] descripcion = new string[5] { "Leche", "Queso", "Yogurt", "Crema", "Queso" };
-            double[] precio = new double[5] { 54, 235, 110, 115, 51 };
-            int[] idProducto = new int[5] { 2, 7, 13, 18, 19 };
-            int[] stock = new int[5] { 7, 44, 48, 50, 78 };
-
-            Producto.ETipo[] tipoProducto = new Producto.ETipo[5] {Producto.ETipo.perecedero,Producto.ETipo.perecedero,
-            Producto.ETipo.perecedero, Producto.ETipo.perecedero, Producto.ETipo.perecedero};
-
-
-            for (int i = 0; i < 5; i++)
-            {
-                listaProductos.Add(new ProductoPerecedero(descripcion[i], idProducto[i], precio[i], stock[i], tipoProducto[i]));
-            }
-        }
-
-
-        /// <summary>
-        /// Hace una carga instantanea de 10 productos no precederos
-        /// </summary>
-        public static void HardcodeoProductosNoPerecederos()
-        {
-            string[] descripcion = new string[10] { "Azucar", "Yerba", "Chocolate", "Galletitas", "Pan lactal",
-             "Miel", "Cereales", "Fideos", "Gaseosa", "Dulce de leche" };
-
-            double[] precio = new double[10] { 197, 88, 120, 78, 132,
-            123, 115, 63, 177, 48};
-
-            int[] idProducto = new int[10] { 1, 3, 4, 5, 6, 8, 9, 10, 11, 12 };
-
-            int[] stock = new int[10] { 8, 7, 9, 3, 15, 23, 44, 18, 2, 4 };
-
-            Producto.ETipo[] tipoProducto = new Producto.ETipo[10] {Producto.ETipo.noPerecedero,
-            Producto.ETipo.noPerecedero,Producto.ETipo.noPerecedero,Producto.ETipo.noPerecedero ,Producto.ETipo.noPerecedero,
-            Producto.ETipo.noPerecedero, Producto.ETipo.noPerecedero, Producto.ETipo.noPerecedero,
-            Producto.ETipo.noPerecedero, Producto.ETipo.noPerecedero };
-
-            for (int i = 0; i < 10; i++)
-            {
-                listaProductos.Add(new ProductoNoPerecedero(descripcion[i], idProducto[i], precio[i], stock[i], tipoProducto[i]));
-            }
-        }
-
-        /// <summary>
-        /// Hace una carga instantanea de 5 articulos de almacen
-        /// </summary>
-        public static void HardcodeoProductosAlmacen()
-        {
-            string[] descripcion = new string[5] { "Jabon", "Shampoo", "Acondicionador", "Jabon liquido", "Jabon en polvo" };
-
-            double[] precio = new double[5] { 30, 140, 130, 135, 150 };
-
-            int[] idProducto = new int[5] { 26, 27, 28, 29, 30 };
-
-            int[] stock = new int[5] { 5, 6, 48, 63, 84 };
-
-            Producto.ETipo[] tipoProducto = new Producto.ETipo[5] {Producto.ETipo.almacen, Producto.ETipo.almacen,
-            Producto.ETipo.almacen, Producto.ETipo.almacen, Producto.ETipo.almacen};
-
-            for (int i = 0; i < 5; i++)
-            {
-                listaProductos.Add(new ProductoAlmacen(descripcion[i], idProducto[i], precio[i], stock[i], tipoProducto[i]));
-            }
-        }
-
-
+        /// 
         public static void HardcodeoCompras()
         {
             Empleado[] auxEmpleado = new Empleado[50] {new Empleado("Wilson", "Huallpa",1, "huallpa"), new Empleado("Wilson", "Huallpa",1, "huallpa"),
